@@ -5,15 +5,24 @@
   column-gap: 30px;
   align-items: start;
 }
+
 .main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgb(106, 90, 205);
+  border-radius: 30px;
 }
 body {
   background-image: url("Img/water-img.jpg");
+  background-size: cover;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-repeat: no-repeat;
 }
+
 a {
   color: black;
   text-decoration: none;
@@ -27,12 +36,7 @@ a:hover {
   bottom: 0px;
   right: 0px;
 }
-.About-Me {
-  background-color: white;
-}
-.I-know {
-  background-color: white;
-}
+
 /* Contact Page */
 input,
 label {
