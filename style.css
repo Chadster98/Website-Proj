@@ -46,6 +46,7 @@ a:hover {
 input,
 label {
   display: block;
+  padding: 2px;
 }
 
 .textarea {
@@ -57,13 +58,16 @@ button {
 .form {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  align-items: center;
+  padding: 400px;
 
   /*display: grid;
   place-items: center;*/
 }
 form {
   background-color: white;
+  border: 2px solid#444;
+  padding: 2vh;
 }
 .About-Me {
   font-size: 20px;
